@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单美食网页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到毛大头之家</h1>
+    </header>
+    <main>
+        <section class="food">
+            <img src="https://example.com/food1.jpg" alt="美食图片1">
+            <h2>美食名称1</h2>
+            <p>美食描述1</p>
+        </section>
+        <section class="food">
+            <img src="https://example.com/food2.jpg" alt="美食图片2">
+            <h2>美食名称2</h2>
+            <p>美食描述2</p>
+        </section>
+    </main>
+         <div class="carousel">
+    <img class="carousel-image" src="https://example.com/food1.jpg" alt="美食图片1">
+    <img class="carousel-image" src="https://example.com/food2.jpg" alt="美食图片2">
+    <img class="carousel-image" src="https://example.com/food3.jpg" alt="美食图片3">
+</div>
+         <div class="filter">
+    <input type="text" id="filterInput" placeholder="搜索美食...">
+</div>
+        <div class="ai-interaction">
+    <h2>与AI互动</h2>
+    <form id="ai-form">
+        <label for="ai-question">输入您的问题:</label>
+        <input type="text" id="ai-question" required>
+        <button type="submit">提交问题</button>
+ <div>
+    <label for="ai-answer">AI回答：</label>
+    <textarea id="ai-answer" rows="4" cols="50" readonly></textarea>
+</div>
+
+<div id="remaining-questions">
+    剩余问题次数：<span id="question-count">3</span>
+</div>
+<button id="ask">
+
+
+
+
+    <footer>
+        <p>版权所有 &copy; 2023 波</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
